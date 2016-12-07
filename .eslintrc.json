@@ -5,9 +5,13 @@
       "react",
       "promise"
   ],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     }
+  },
+  "rules": {
+    "strict": 0
   }
 }

@@ -1,23 +1,19 @@
-// Responsive text
-
 html {
   font-size: 14px;
-}
 
-@include media-breakpoint-up(sm) {
-  html {
+  @include media-breakpoint-up(sm) {
     font-size: 16px;
   }
-}
 
-@include media-breakpoint-up(md) {
-  html {
+  @include media-breakpoint-up(md) {
     font-size: 20px;
   }
-}
 
-@include media-breakpoint-up(lg) {
-  html {
+  @include media-breakpoint-up(lg) {
     font-size: 24px;
   }
+}
+
+body {
+  color: #DDD;
 }

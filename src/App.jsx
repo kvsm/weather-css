@@ -1,12 +1,16 @@
-import React, { PropTypes } from 'react'
-import Hello from './components/Weather'
+import React from 'react'
+import Backdrop from './components/Backdrop'
+import Weather from './components/Weather'
 
 class App extends React.Component {
   render () {
     return (
-      <div></div>
+      <div>
+        <Backdrop />
+        <Weather />
+      </div>
     )
   }
 }
 
-export default App;
+export default App

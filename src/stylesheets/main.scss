@@ -8,6 +8,7 @@
 @import 'base/base';
 @import 'base/typography';
 
-@import 'layout/weather'
-
-//components
+@import 'components/backdrop';
+@import 'components/temperature';
+@import 'components/temperature_scale';
+@import 'components/weather';
